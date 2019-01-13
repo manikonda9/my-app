@@ -8,6 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1>MMK Application</h1>
+          <h3>React Application</h3>
         </header>
       </div>
     );
