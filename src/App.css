@@ -30,3 +30,53 @@
     transform: rotate(360deg);
   }
 }
+
+section{
+  display: flex;
+}
+
+section div{
+  display: inline-block;
+  padding: 5px;
+}
+
+section div img{
+  width:25px;
+  height:25px;
+}
+
+section div input{
+  padding:5px;
+  border-radius: 5px;
+  height:30px;
+  border: 1px solid gray;
+  font-style: italic;
+}
+
+.sidebar{
+  padding:5px;
+  border-right:1px solid gray;
+}
+
+table thead, table tbody{
+  border-top:2px solid gray;
+  border-bottom:2px solid gray;
+}
+
+table tr th, table tr td{
+  height: 40px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  vertical-align: middle !important;
+}
+section {
+  padding:0 12px !important;
+}
+
+table thead tr th{
+  border-bottom: 2px solid gray;
+}
+
+table thead th{
+  border-bottom: 0px !important;
+}
